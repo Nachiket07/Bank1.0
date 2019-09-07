@@ -16,6 +16,7 @@ using System.Configuration;
 */
 namespace Bank
 {
+    /* yeah yeah !*/
     public partial class login : System.Web.UI.Page
     {
         public void redirectA(Object sender, EventArgs e)
