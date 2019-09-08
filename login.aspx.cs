@@ -26,7 +26,6 @@ namespace Bank
             SqlCommand cmd = new SqlCommand(query, con);
             try
             {
-                //SqlDataReader q;
                 SqlDataReader r = cmd.ExecuteReader();
                 Boolean i = r.HasRows;
                 if (r.HasRows)
@@ -37,7 +36,6 @@ namespace Bank
                         Session["Password"] = r.GetValue(1);
                         Session["Name"] = r.GetValue(2);
                         Session["Email"] = r.GetValue(3);
-                        //Session["Office"] = r.GetValue(4);
                     }
                     Response.Redirect("~/Admin.aspx");
                 }
@@ -64,7 +62,6 @@ namespace Bank
             SqlCommand cmd = new SqlCommand(query,con);
             try
             {
-                //SqlDataReader q;
                 SqlDataReader r= cmd.ExecuteReader();
                 Boolean i = r.HasRows;
                 if (r.HasRows)
@@ -75,7 +72,6 @@ namespace Bank
                         Session["Password"] = r.GetValue(1);
                         Session["Name"] = r.GetValue(2);
                         Session["Email"] = r.GetValue(3);
-                        //Session["Office"] = r.GetValue(4);
                     }
                     Response.Redirect("~/Welcome1.aspx");
                 }
