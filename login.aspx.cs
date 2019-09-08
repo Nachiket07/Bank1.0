@@ -18,6 +18,7 @@ namespace Bank
 {
     public partial class login : System.Web.UI.Page
     {
+        /* yeah yeah !*/
         public void redirectA(Object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Banks"].ConnectionString);
