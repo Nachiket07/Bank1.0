@@ -10,7 +10,6 @@
     
     <div style="position:fixed;top:42%; right:40%;">
         <form id="log" runat="server">
-            
              <table>
                 <tr>
                     <td><asp:label ID="lphone" runat="server" Text="Phone No"></asp:label></td>

@@ -75,7 +75,7 @@ namespace Bank
                         Session["Name"] = r.GetValue(2);
                         Session["Email"] = r.GetValue(3);
                     }
-                    Response.Redirect("~/Welcome1.aspx");
+                    Response.Redirect("~/Survey.aspx");
                 }
                 else
                 {

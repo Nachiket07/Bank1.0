@@ -12,7 +12,7 @@ namespace Bank
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Name.Text = Session["Name"].ToString();
         }
         public void submitClick(object sender, EventArgs e)
         {
