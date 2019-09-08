@@ -15,14 +15,14 @@ namespace Bank
         int count = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*if (Session["Name"] != null)
+            if (Session["Name"] != null)
             {
                 welcome.Text = Session["Name"].ToString();
             }
             else
             {
                 Response.Redirect("login.aspx");
-            }*/
+            }
             questions = new SqlConnection(ConfigurationManager.ConnectionStrings["Banks"].ConnectionString);
             questions.Open();
             String query = "Select * from [Questions]";
