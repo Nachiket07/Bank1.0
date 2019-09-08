@@ -16,7 +16,6 @@ using System.Configuration;
 */
 namespace Bank
 {
-    /* yeah yeah !*/
     public partial class login : System.Web.UI.Page
     {
         /* yeah yeah !*/
