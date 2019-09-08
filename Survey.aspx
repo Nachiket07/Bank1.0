@@ -13,6 +13,13 @@
             <asp:Label ID="Name" Font-Size="larger" runat="server" text="amigo"></asp:Label><br/>
         
         </div>
+        <br /><br />
+        <div>
+            <asp:Panel ID="SurveyQuestions" runat="server">
+
+            </asp:Panel>
+        </div>
+        <!--
         <div>
             <br /><br />
             <asp:Label id="Q1" Text="Does change in Ruling party affects the economy? What do you think!!" runat="server" ></asp:Label><br />
@@ -44,6 +51,7 @@
             <br />
             <asp:Button id="submit" runat="server" OnClick="submitClick" Text="submit"/>
         </div>
+        -->
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Banks %>" SelectCommand="SELECT * FROM [Table]"></asp:SqlDataSource>
     </form>
 </body>
